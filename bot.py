@@ -14,7 +14,9 @@ from telegram.ext import (
 # =========================
 # تنظیمات
 # =========================
-
+import os
+TOKEN = os.environ.get("
+8682124344:AAHTdQw4EpaPrEEjxff1QoQS-6X6s-j-ypA")
 TOKEN = "8682124344:AAF9o2-3F1MCHY1V4xmES6JNj7HTKvjr5jE"
 ADMIN_ID = 5849215553
 FILE = "replies.json"
